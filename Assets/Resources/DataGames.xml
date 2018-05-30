@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <roomlist>
+    <game name="BattleSolitaire" players="231" gameId="19">
+      <supergame price="1" max="500" current="230" />
+      <supergame price="100" max="1000" current="10" />
+      <supergame price="1000" max="5000" current="4999" />
+      <room players="0" maxPlayers="100" price="100">Ace to King</room>
+      <room players="64" maxPlayers="100" price="1000">Arena</room>
+      <room players="0" maxPlayers="100" price="10">Battle Boerderij</room>
+    </game>
+    <game name="Bingo">
+      <supergame price="10" max="750" current="320" />
+      <room players="68" maxPlayers="200" price="100">Carte sur Table</room>
+      <room players="21" maxPlayers="100" price="1000">Flying Cards</room>
+      <room players="78" maxPlayers="100" price="1">Kaartkasteel</room>
+    </game>
+    <game name="Poker" players="120" gameId="20">
+      <supergame price="60" max="300" current="200" />
+      <room players="100" maxPlayers="100" price="1000">Texas Holdem</room>
+      <room players="20" maxPlayers="100" price="100">Clasic</room>
+    </game>
+  </roomlist>
+</data>
