@@ -12,7 +12,7 @@ namespace Assets.Scripts
         {
             //Load a file.xml from the Resources folder
             TextAsset xmlFile = Resources.Load<TextAsset>(xmlFileName);
-            //Getting data in xml format 
+            //Getting data in string format 
             string xmlData = xmlFile.text;
             //create a XmlDocument
             XmlDocument xmlDoc = new XmlDocument();
