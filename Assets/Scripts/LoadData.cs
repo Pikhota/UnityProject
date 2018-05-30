@@ -16,13 +16,16 @@ public class LoadData : MonoBehaviour
 
     public void Awake()
     {
+        //get data from the DataGames.xml
         data = ParseData.ParseXmlFileToObject("DataGames");
+        //fill options in the dropdown 
         List<string> optionsGameList = new List<string>();
         foreach (Game game in data.Roomlist.Games)
         {
             optionsGameList.Add(game.Name);
         }
         dropdown.GetComponent<Dropdown>().AddOptions(optionsGameList);
+        //initiaze other objects
         Initialization(dropdown.value);
     }
 
@@ -55,21 +58,18 @@ public class LoadData : MonoBehaviour
                 new Vector3(Panel.transform.position.x, Panel.transform.position.y, Panel.transform.position.z),
                 Quaternion.identity, Panel.transform);
         }
-
-
     }
 
     private float GetPercent(float max, float current)
     {
-        float percent = max / 100;
-        return current / percent;
+        return current / (max / 100);
     }
 
     private void Clear(GameObject parent)
     {
         foreach (Transform child in parent.transform)
         {
-            if (child != dropdown.transform)
+            if (!child.GetComponent<Dropdown>())
                 Destroy(child.gameObject);
         }
     }
