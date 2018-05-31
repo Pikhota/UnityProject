@@ -1,4 +1,5 @@
-﻿using System.Xml.Serialization;
+﻿using System.Collections.Generic;
+using System.Xml.Serialization;
 
 namespace Assets.Scripts.Models
 {
@@ -6,6 +7,6 @@ namespace Assets.Scripts.Models
     public class Data
     {
         [XmlElement(ElementName = "roomlist")]
-        public RoomList Roomlist { get; set; }
+        public List<RoomList> Roomlist { get; set; }
     }
 }

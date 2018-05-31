@@ -9,7 +9,7 @@ namespace Assets.Scripts.Models
         [XmlElement(ElementName = "supergame")]
         public List<SuperGame> Supergame { get; set; }
         [XmlElement(ElementName = "room")]
-        public List<Room> Rooms { get; set; }
+        public List<Room> Room { get; set; }
         [XmlAttribute(AttributeName = "name")]
         public string Name { get; set; }
         [XmlAttribute(AttributeName = "players")]

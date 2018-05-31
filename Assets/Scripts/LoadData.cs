@@ -20,9 +20,9 @@ public class LoadData : MonoBehaviour
         data = ParseData.ParseXmlFileToObject("DataGames");
         //fill options in the dropdown 
         List<string> optionsGameList = new List<string>();
-        foreach (Game game in data.Roomlist.Games)
+        foreach(RoomList roomlist in data.Roomlist)
         {
-            optionsGameList.Add(game.Name);
+            optionsGameList.Add(roomlist.Type);
         }
         dropdown.GetComponent<Dropdown>().AddOptions(optionsGameList);
         //initiaze other objects
@@ -31,33 +31,37 @@ public class LoadData : MonoBehaviour
 
     private void Initialization(int index)
     {
-        RoomList roomList = data.Roomlist;
         
-        foreach (SuperGame superGame in roomList.Games[index].Supergame)
+        foreach (Game game in data.Roomlist[index].Games)
         {
-            super.transform.GetChild(1).GetComponent<Text>().text = superGame.Price;
-            super.transform.GetChild(2).GetComponentInChildren<Text>().text = superGame.AmountPlayers + " / " + superGame.MaxPlayers;
-            float value = GetPercent(float.Parse(superGame.MaxPlayers), float.Parse(superGame.AmountPlayers));
-            super.transform.GetChild(2).GetComponent<Slider>().value = value == 1 ? 0.1f : value / 100;
-            Instantiate(
-                super,
-                new Vector3(Panel.transform.position.x, Panel.transform.position.y, Panel.transform.position.z),
-                Quaternion.identity, Panel.transform);
+            foreach(SuperGame superGame in game.Supergame)
+            {
+                super.transform.GetChild(1).GetComponent<Text>().text = superGame.Price;
+                super.transform.GetChild(2).GetComponentInChildren<Text>().text = superGame.AmountPlayers + " / " + superGame.MaxPlayers;
+                float value = GetPercent(float.Parse(superGame.MaxPlayers), float.Parse(superGame.AmountPlayers));
+                super.transform.GetChild(2).GetComponent<Slider>().value = value == 1 ? 0.1f : value / 100;
+                Instantiate(
+                    super,
+                    new Vector3(Panel.transform.position.x, Panel.transform.position.y, Panel.transform.position.z),
+                    Quaternion.identity, Panel.transform);
+            }
+
+            foreach (Room room in game.Room.OrderBy(room => room.Text))
+            {
+                simple.transform.GetChild(1).GetComponent<Text>().text = room.Price;
+                simple.transform.GetChild(2).GetComponent<Text>().text = room.Text;
+                simple.transform.GetChild(3).GetComponentInChildren<Text>().text =
+                    Int32.Parse(room.MaxPlayers) > Int32.Parse(room.Players) ? "Join" : "Full";
+                simple.transform.GetChild(3).GetComponent<Button>().interactable =
+                    Int32.Parse(room.MaxPlayers) > Int32.Parse(room.Players);
+                Instantiate(
+                    simple,
+                    new Vector3(Panel.transform.position.x, Panel.transform.position.y, Panel.transform.position.z),
+                    Quaternion.identity, Panel.transform);
+            }
         }
 
-        foreach (Room room in roomList.Games[index].Rooms.OrderBy(room => room.Text))
-        {
-            simple.transform.GetChild(1).GetComponent<Text>().text = room.Price;
-            simple.transform.GetChild(2).GetComponent<Text>().text = room.Text;
-            simple.transform.GetChild(3).GetComponentInChildren<Text>().text =
-                Int32.Parse(room.MaxPlayers) > Int32.Parse(room.Players) ? "Join" : "Full";
-            simple.transform.GetChild(3).GetComponent<Button>().interactable =
-                Int32.Parse(room.MaxPlayers) > Int32.Parse(room.Players) ? true : false;
-            Instantiate(
-                simple,
-                new Vector3(Panel.transform.position.x, Panel.transform.position.y, Panel.transform.position.z),
-                Quaternion.identity, Panel.transform);
-        }
+        
     }
 
     private float GetPercent(float max, float current)
