@@ -13,8 +13,8 @@ namespace Assets.Scripts.Models
         [XmlAttribute(AttributeName = "name")]
         public string Name { get; set; }
         [XmlAttribute(AttributeName = "players")]
-        public string Players { get; set; }
+        public int Players { get; set; }
         [XmlAttribute(AttributeName = "gameId")]
-        public string GameId { get; set; }
+        public int GameId { get; set; }
     }
 }

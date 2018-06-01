@@ -3,6 +3,7 @@ using Assets.Scripts.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,8 +12,8 @@ public class LoadData : MonoBehaviour
     private Data data;
     [SerializeField] private GameObject Panel;
     [SerializeField] private Dropdown dropdown;
-    [SerializeField] private GameObject super;
-    [SerializeField] private GameObject simple;
+    [SerializeField] private Transform super;
+    [SerializeField] private Transform simple;
 
     public void Awake()
     {
@@ -36,10 +37,10 @@ public class LoadData : MonoBehaviour
         {
             foreach(SuperGame superGame in game.Supergame)
             {
-                super.transform.GetChild(1).GetComponent<Text>().text = superGame.Price;
-                super.transform.GetChild(2).GetComponentInChildren<Text>().text = superGame.AmountPlayers + " / " + superGame.MaxPlayers;
-                float value = GetPercent(float.Parse(superGame.MaxPlayers), float.Parse(superGame.AmountPlayers));
-                super.transform.GetChild(2).GetComponent<Slider>().value = value == 1 ? 0.1f : value / 100;
+                super.GetChild(1).GetComponent<TextMeshProUGUI>().text = superGame.Price.ToString();
+                super.GetChild(2).GetComponentInChildren<TextMeshProUGUI>().text = superGame.AmountPlayers + " / " + superGame.MaxPlayers;
+                float value = GetPercent(superGame.MaxPlayers, superGame.AmountPlayers);
+                super.GetChild(2).GetComponent<Slider>().value = value == 1 ? 0.1f : value / 100;
                 Instantiate(
                     super,
                     new Vector3(Panel.transform.position.x, Panel.transform.position.y, Panel.transform.position.z),
@@ -48,20 +49,18 @@ public class LoadData : MonoBehaviour
 
             foreach (Room room in game.Room.OrderBy(room => room.Text))
             {
-                simple.transform.GetChild(1).GetComponent<Text>().text = room.Price;
-                simple.transform.GetChild(2).GetComponent<Text>().text = room.Text;
-                simple.transform.GetChild(3).GetComponentInChildren<Text>().text =
-                    Int32.Parse(room.MaxPlayers) > Int32.Parse(room.Players) ? "Join" : "Full";
-                simple.transform.GetChild(3).GetComponent<Button>().interactable =
-                    Int32.Parse(room.MaxPlayers) > Int32.Parse(room.Players);
+                simple.GetChild(1).GetComponent<TextMeshProUGUI>().text = room.Price.ToString();
+                simple.GetChild(2).GetComponent<TextMeshProUGUI>().text = room.Text;
+                simple.GetChild(3).GetComponentInChildren<TextMeshProUGUI>().text =
+                    room.MaxPlayers > room.Players ? "Join" : "Full";
+                simple.GetChild(3).GetComponent<Button>().interactable =
+                    room.MaxPlayers > room.Players;
                 Instantiate(
                     simple,
                     new Vector3(Panel.transform.position.x, Panel.transform.position.y, Panel.transform.position.z),
                     Quaternion.identity, Panel.transform);
             }
         }
-
-        
     }
 
     private float GetPercent(float max, float current)

@@ -6,11 +6,11 @@ namespace Assets.Scripts.Models
     public class Room
     {
         [XmlAttribute(AttributeName = "players")]
-        public string Players { get; set; }
+        public int Players { get; set; }
         [XmlAttribute(AttributeName = "maxPlayers")]
-        public string MaxPlayers { get; set; }
+        public int MaxPlayers { get; set; }
         [XmlAttribute(AttributeName = "price")]
-        public string Price { get; set; }
+        public int Price { get; set; }
         [XmlText]
         public string Text { get; set; }
     }

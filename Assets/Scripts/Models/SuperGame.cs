@@ -6,10 +6,10 @@ namespace Assets.Scripts.Models
     public class SuperGame
     {
         [XmlAttribute(AttributeName="price")]
-		public string Price { get; set; }
+		public int Price { get; set; }
 		[XmlAttribute(AttributeName="max")]
-		public string MaxPlayers { get; set; }
+		public int MaxPlayers { get; set; }
 		[XmlAttribute(AttributeName="current")]
-		public string AmountPlayers { get; set; }
+		public int AmountPlayers { get; set; }
     }
 }

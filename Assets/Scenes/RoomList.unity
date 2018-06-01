@@ -185,7 +185,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -650,8 +650,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel: {fileID: 903468617}
   dropdown: {fileID: 213874896}
-  super: {fileID: 1869514442603112, guid: 097543d04dbd8f14481b5cba8ac44f30, type: 2}
-  simple: {fileID: 1307083501493490, guid: 7aba99fcb8749034b842dfc12c467146, type: 2}
+  super: {fileID: 224711972272527434, guid: 097543d04dbd8f14481b5cba8ac44f30, type: 2}
+  simple: {fileID: 224992388420933984, guid: 7aba99fcb8749034b842dfc12c467146, type: 2}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -669,7 +669,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 100
   field of view: 60
   orthographic: 1
   orthographic size: 1000
@@ -1061,7 +1061,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 420.8, y: -300}
+  m_AnchoredPosition: {x: 421, y: -300}
   m_SizeDelta: {x: 485, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &903468619

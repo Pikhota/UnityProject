@@ -166,3 +166,5 @@ D:\UnityProjects\FirstGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.ca
 D:\UnityProjects\FirstGame\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\UnityProjects\FirstGame\obj\Debug\Assembly-CSharp.dll
 D:\UnityProjects\FirstGame\obj\Debug\Assembly-CSharp.pdb
+D:\UnityProjects\FirstGame\Temp\bin\Debug\TextMeshPro-2017.3-Editor.dll
+D:\UnityProjects\FirstGame\Temp\bin\Debug\TextMeshPro-2017.3-Runtime.dll
