@@ -7,6 +7,8 @@ D:\UnityProjects\FirstGame\Temp\bin\Debug\System.dll
 D:\UnityProjects\FirstGame\Temp\bin\Debug\System.Runtime.Serialization.dll
 D:\UnityProjects\FirstGame\Temp\bin\Debug\System.Xml.dll
 D:\UnityProjects\FirstGame\Temp\bin\Debug\System.Xml.Linq.dll
+D:\UnityProjects\FirstGame\Temp\bin\Debug\TextMeshPro-2017.3-Editor.dll
+D:\UnityProjects\FirstGame\Temp\bin\Debug\TextMeshPro-2017.3-Runtime.dll
 D:\UnityProjects\FirstGame\Temp\bin\Debug\Unity.Locator.dll
 D:\UnityProjects\FirstGame\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
 D:\UnityProjects\FirstGame\Temp\bin\Debug\UnityEditor.dll
@@ -95,6 +97,7 @@ D:\UnityProjects\FirstGame\Temp\bin\Debug\Boo.Lang.Useful.dll
 D:\UnityProjects\FirstGame\Temp\bin\Debug\Unity.CecilTools.dll
 D:\UnityProjects\FirstGame\Temp\bin\Debug\Unity.Cecil.Pdb.dll
 D:\UnityProjects\FirstGame\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+D:\UnityProjects\FirstGame\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
 D:\UnityProjects\FirstGame\Temp\bin\Debug\UnityEngine.xml
 D:\UnityProjects\FirstGame\Temp\bin\Debug\UnityEditor.xml
 D:\UnityProjects\FirstGame\Temp\bin\Debug\UnityEngine.AIModule.xml
@@ -166,5 +169,3 @@ D:\UnityProjects\FirstGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.ca
 D:\UnityProjects\FirstGame\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\UnityProjects\FirstGame\obj\Debug\Assembly-CSharp.dll
 D:\UnityProjects\FirstGame\obj\Debug\Assembly-CSharp.pdb
-D:\UnityProjects\FirstGame\Temp\bin\Debug\TextMeshPro-2017.3-Editor.dll
-D:\UnityProjects\FirstGame\Temp\bin\Debug\TextMeshPro-2017.3-Runtime.dll
