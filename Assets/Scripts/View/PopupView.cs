@@ -30,7 +30,7 @@ namespace Assets.View
             _popupAlreadyOnScene = true;
             var prefab = _popupsList.Find(p => p.Type == popup).Prefab;
             var _instance = Instantiate(prefab);
-            _instance.transform.parent = PopupRoot;
+            _instance.transform.SetParent(PopupRoot);
             _instance.transform.localScale = Vector3.one;
             _instance.transform.localPosition = Vector3.zero;
             
