@@ -1,6 +1,6 @@
 ﻿using strange.extensions.mediation.impl;
 
-namespace Assets.View
+namespace Assets.Scripts.View
 {
     public class TargetMediator<T> : EventMediator
         where T : EventView

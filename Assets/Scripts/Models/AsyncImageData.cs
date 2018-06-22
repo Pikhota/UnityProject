@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Models
+namespace Assets.Scripts.Models
 {
     public class AsyncImageData
     {

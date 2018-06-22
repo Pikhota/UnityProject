@@ -1,7 +1,7 @@
-﻿using Assets.Signals;
-using Assets.Models;
+﻿using Assets.Scripts.Signals;
+using Assets.Scripts.Models;
 
-namespace Assets.View
+namespace Assets.Scripts.View
 {
     public class PopupViewMediator : TargetMediator<PopupView>
     {

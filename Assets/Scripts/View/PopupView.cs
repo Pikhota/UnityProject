@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Assets.Models;
+using Assets.Scripts.Models;
 using strange.extensions.mediation.impl;
 using UnityEngine;
 
-namespace Assets.View
+namespace Assets.Scripts.View
 {
     public class PopupView : EventView
     {

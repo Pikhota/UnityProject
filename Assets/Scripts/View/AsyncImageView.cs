@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.View
+namespace Assets.Scripts.View
 {
     public class AsyncImageView : EventView
     {

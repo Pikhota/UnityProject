@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace Assets.Models
+namespace Assets.Scripts.Models
 {
 	public class GameState
 	{

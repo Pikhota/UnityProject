@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <settings>
+    <param name="COIN_ICON">
+      https://opengameart.org/sites/default/files/Coin_0.png
+    </param>
+    <param name="PLAYERS_ICON">
+      https://cdn0.iconfinder.com/data/icons/large-glossy-icons/512/User_group.png
+    </param>
+  </settings>
+  <roomlist>
+    <game name="Game Name 0" players="2677" gameId="0">
+      <supergame price="0" max="443" current="68"/>
+      <supergame price="10" max="802" current="88"/>
+      <supergame price="20" max="57" current="7"/>
+      <room players="3" maxPlayers="6" price="0">Room Name 0_0</room>
+      <room players="4" maxPlayers="90" price="0">Room Name 0_1</room>
+      <room players="29" maxPlayers="284" price="0">Room Name 0_2</room>
+      <room players="70" maxPlayers="163" price="0">Room Name 0_3</room>
+      <room players="57" maxPlayers="73" price="0">Room Name 0_4</room>
+      <room players="32" maxPlayers="106" price="0">Room Name 0_5</room>
+      <room players="106" maxPlayers="201" price="0">Room Name 0_6</room>
+      <room players="26" maxPlayers="237" price="0">Room Name 0_7</room>
+      <room players="176" maxPlayers="203" price="0">Room Name 0_8</room>
+      <room players="10" maxPlayers="142" price="10">Room Name 1_0</room>
+      <room players="11" maxPlayers="257" price="10">Room Name 1_1</room>
+      <room players="3" maxPlayers="152" price="10">Room Name 1_2</room>
+      <room players="125" maxPlayers="128" price="10">Room Name 1_3</room>
+      <room players="225" maxPlayers="230" price="10">Room Name 1_4</room>
+      <room players="203" maxPlayers="299" price="10">Room Name 1_5</room>
+      <room players="143" maxPlayers="148" price="10">Room Name 1_6</room>
+      <room players="7" maxPlayers="19" price="10">Room Name 1_7</room>
+      <room players="68" maxPlayers="190" price="10">Room Name 1_8</room>
+      <room players="114" maxPlayers="269" price="10">Room Name 1_9</room>
+      <room players="109" maxPlayers="244" price="10">Room Name 1_10</room>
+      <room players="25" maxPlayers="146" price="10">Room Name 1_11</room>
+      <room players="52" maxPlayers="125" price="10">Room Name 1_12</room>
+      <room players="45" maxPlayers="49" price="10">Room Name 1_13</room>
+      <room players="107" maxPlayers="271" price="10">Room Name 1_14</room>
+      <room players="113" maxPlayers="207" price="20">Room Name 2_0</room>
+      <room players="57" maxPlayers="130" price="20">Room Name 2_1</room>
+      <room players="0" maxPlayers="0" price="20">Room Name 2_2</room>
+      <room players="2" maxPlayers="24" price="20">Room Name 2_3</room>
+      <room players="64" maxPlayers="136" price="20">Room Name 2_4</room>
+      <room players="86" maxPlayers="242" price="20">Room Name 2_5</room>
+      <room players="33" maxPlayers="188" price="20">Room Name 2_6</room>
+      <room players="121" maxPlayers="168" price="20">Room Name 2_7</room>
+      <room players="9" maxPlayers="215" price="20">Room Name 2_8</room>
+      <room players="148" maxPlayers="151" price="20">Room Name 2_9</room>
+      <room players="138" maxPlayers="143" price="20">Room Name 2_10</room>
+      <room players="4" maxPlayers="8" price="20">Room Name 2_11</room>
+      <room players="129" maxPlayers="206" price="20">Room Name 2_12</room>
+      <room players="23" maxPlayers="27" price="20">Room Name 2_13</room>
+    </game>
+    <game name="Game Name 1" players="1642" gameId="1">
+      <supergame price="0" max="34" current="8"/>
+      <supergame price="10" max="85" current="38"/>
+      <room players="58" maxPlayers="60" price="0">Room Name 0_0</room>
+      <room players="101" maxPlayers="240" price="0">Room Name 0_1</room>
+      <room players="178" maxPlayers="188" price="0">Room Name 0_2</room>
+      <room players="173" maxPlayers="189" price="0">Room Name 0_3</room>
+      <room players="75" maxPlayers="245" price="0">Room Name 0_4</room>
+      <room players="104" maxPlayers="107" price="0">Room Name 0_5</room>
+      <room players="166" maxPlayers="204" price="0">Room Name 0_6</room>
+      <room players="56" maxPlayers="236" price="0">Room Name 0_7</room>
+      <room players="37" maxPlayers="180" price="0">Room Name 0_8</room>
+      <room players="19" maxPlayers="56" price="0">Room Name 0_9</room>
+      <room players="136" maxPlayers="168" price="0">Room Name 0_10</room>
+      <room players="50" maxPlayers="70" price="0">Room Name 0_11</room>
+      <room players="132" maxPlayers="156" price="0">Room Name 0_12</room>
+      <room players="84" maxPlayers="226" price="0">Room Name 0_13</room>
+      <room players="23" maxPlayers="105" price="0">Room Name 0_14</room>
+      <room players="71" maxPlayers="186" price="0">Room Name 0_15</room>
+      <room players="27" maxPlayers="31" price="0">Room Name 0_16</room>
+      <room players="30" maxPlayers="46" price="0">Room Name 0_17</room>
+      <room players="94" maxPlayers="229" price="10">Room Name 1_0</room>
+      <room players="28" maxPlayers="175" price="10">Room Name 1_1</room>
+    </game>
+    <game name="Game Name 2" players="1712" gameId="2">
+      <supergame price="0" max="91" current="61"/>
+      <room players="218" maxPlayers="261" price="0">Room Name 0_0</room>
+      <room players="65" maxPlayers="255" price="0">Room Name 0_1</room>
+      <room players="76" maxPlayers="86" price="0">Room Name 0_2</room>
+      <room players="1" maxPlayers="5" price="0">Room Name 0_3</room>
+      <room players="85" maxPlayers="116" price="0">Room Name 0_4</room>
+      <room players="20" maxPlayers="23" price="0">Room Name 0_5</room>
+      <room players="46" maxPlayers="234" price="0">Room Name 0_6</room>
+      <room players="44" maxPlayers="78" price="0">Room Name 0_7</room>
+      <room players="121" maxPlayers="178" price="0">Room Name 0_8</room>
+      <room players="253" maxPlayers="293" price="0">Room Name 0_9</room>
+      <room players="155" maxPlayers="235" price="0">Room Name 0_10</room>
+      <room players="32" maxPlayers="38" price="0">Room Name 0_11</room>
+      <room players="15" maxPlayers="139" price="0">Room Name 0_12</room>
+      <room players="118" maxPlayers="126" price="0">Room Name 0_13</room>
+      <room players="190" maxPlayers="292" price="0">Room Name 0_14</room>
+      <room players="2" maxPlayers="18" price="0">Room Name 0_15</room>
+      <room players="131" maxPlayers="139" price="0">Room Name 0_16</room>
+      <room players="140" maxPlayers="264" price="0">Room Name 0_17</room>
+    </game>
+    <game name="Game Name 3" players="1315" gameId="3">
+      <supergame price="0" max="384" current="96"/>
+      <supergame price="10" max="76" current="46"/>
+      <room players="14" maxPlayers="26" price="0">Room Name 0_0</room>
+      <room players="212" maxPlayers="229" price="0">Room Name 0_1</room>
+      <room players="20" maxPlayers="89" price="0">Room Name 0_2</room>
+      <room players="53" maxPlayers="94" price="0">Room Name 0_3</room>
+      <room players="0" maxPlayers="44" price="0">Room Name 0_4</room>
+      <room players="83" maxPlayers="171" price="0">Room Name 0_5</room>
+      <room players="35" maxPlayers="188" price="0">Room Name 0_6</room>
+      <room players="7" maxPlayers="35" price="0">Room Name 0_7</room>
+      <room players="210" maxPlayers="213" price="0">Room Name 0_8</room>
+      <room players="42" maxPlayers="237" price="0">Room Name 0_9</room>
+      <room players="147" maxPlayers="220" price="10">Room Name 1_0</room>
+      <room players="125" maxPlayers="287" price="10">Room Name 1_1</room>
+      <room players="79" maxPlayers="251" price="10">Room Name 1_2</room>
+      <room players="15" maxPlayers="218" price="10">Room Name 1_3</room>
+      <room players="65" maxPlayers="187" price="10">Room Name 1_4</room>
+      <room players="111" maxPlayers="143" price="10">Room Name 1_5</room>
+      <room players="64" maxPlayers="72" price="10">Room Name 1_6</room>
+      <room players="33" maxPlayers="59" price="10">Room Name 1_7</room>
+    </game>
+    <game name="Game Name 4" players="871" gameId="4">
+      <supergame price="0" max="685" current="79"/>
+      <room players="23" maxPlayers="287" price="0">Room Name 0_0</room>
+      <room players="84" maxPlayers="172" price="0">Room Name 0_1</room>
+      <room players="68" maxPlayers="83" price="0">Room Name 0_2</room>
+      <room players="165" maxPlayers="201" price="0">Room Name 0_3</room>
+      <room players="27" maxPlayers="153" price="0">Room Name 0_4</room>
+      <room players="1" maxPlayers="46" price="0">Room Name 0_5</room>
+      <room players="0" maxPlayers="4" price="0">Room Name 0_6</room>
+      <room players="2" maxPlayers="8" price="0">Room Name 0_7</room>
+      <room players="80" maxPlayers="101" price="0">Room Name 0_8</room>
+      <room players="36" maxPlayers="143" price="0">Room Name 0_9</room>
+      <room players="119" maxPlayers="126" price="0">Room Name 0_10</room>
+      <room players="38" maxPlayers="283" price="0">Room Name 0_11</room>
+      <room players="18" maxPlayers="45" price="0">Room Name 0_12</room>
+      <room players="82" maxPlayers="263" price="0">Room Name 0_13</room>
+      <room players="64" maxPlayers="153" price="0">Room Name 0_14</room>
+      <room players="64" maxPlayers="168" price="0">Room Name 0_15</room>
+    </game>
+    <game name="Game Name 5" players="1849" gameId="5">
+      <supergame price="0" max="132" current="28"/>
+      <supergame price="10" max="56" current="31"/>
+      <room players="13" maxPlayers="28" price="0">Room Name 0_0</room>
+      <room players="0" maxPlayers="48" price="0">Room Name 0_1</room>
+      <room players="174" maxPlayers="193" price="0">Room Name 0_2</room>
+      <room players="75" maxPlayers="167" price="0">Room Name 0_3</room>
+      <room players="25" maxPlayers="58" price="0">Room Name 0_4</room>
+      <room players="16" maxPlayers="228" price="0">Room Name 0_5</room>
+      <room players="244" maxPlayers="259" price="0">Room Name 0_6</room>
+      <room players="29" maxPlayers="68" price="0">Room Name 0_7</room>
+      <room players="56" maxPlayers="95" price="0">Room Name 0_8</room>
+      <room players="1" maxPlayers="111" price="0">Room Name 0_9</room>
+      <room players="17" maxPlayers="40" price="0">Room Name 0_10</room>
+      <room players="87" maxPlayers="101" price="0">Room Name 0_11</room>
+      <room players="100" maxPlayers="284" price="0">Room Name 0_12</room>
+      <room players="99" maxPlayers="232" price="10">Room Name 1_0</room>
+      <room players="166" maxPlayers="220" price="10">Room Name 1_1</room>
+      <room players="18" maxPlayers="111" price="10">Room Name 1_2</room>
+      <room players="165" maxPlayers="260" price="10">Room Name 1_3</room>
+      <room players="85" maxPlayers="140" price="10">Room Name 1_4</room>
+      <room players="59" maxPlayers="154" price="10">Room Name 1_5</room>
+      <room players="139" maxPlayers="148" price="10">Room Name 1_6</room>
+      <room players="137" maxPlayers="212" price="10">Room Name 1_7</room>
+      <room players="108" maxPlayers="241" price="10">Room Name 1_8</room>
+      <room players="33" maxPlayers="170" price="10">Room Name 1_9</room>
+      <room players="2" maxPlayers="38" price="10">Room Name 1_10</room>
+      <room players="1" maxPlayers="2" price="10">Room Name 1_11</room>
+    </game>
+  </roomlist>
+</data>

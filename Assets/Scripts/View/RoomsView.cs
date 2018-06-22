@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Assets.Models;
 using strange.extensions.mediation.impl;
-using Assets.Signals;
+using Assets.Scripts.Signals;
 using TMPro;
 using UnityEngine;
+using Assets.Scripts.Models;
 
-namespace Assets.View
+namespace Assets.Scripts.View
 {
     public class RoomsView : EventView
 	{

@@ -1,13 +1,13 @@
 ﻿using System.Linq;
-using Assets.Models;
-using Assets.Signals;
+using Assets.Scripts.Models;
+using Assets.Scripts.Signals;
 using TMPro;
 using UniRx;
 using UnityEngine;
 using Button = UnityEngine.UI.Button;
 
 
-namespace Assets.View
+namespace Assets.Scripts.View
 {
     public class RoomViewItem : ViewWithModel<Models.Room>
 	{

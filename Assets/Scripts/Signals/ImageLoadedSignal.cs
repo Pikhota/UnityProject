@@ -1,7 +1,7 @@
-﻿using Assets.Models;
+﻿using Assets.Scripts.Models;
 using strange.extensions.signal.impl;
 
-namespace Assets.Signals
+namespace Assets.Scripts.Signals
 {
     public class ImageLoadedSignal : Signal<AsyncImageData>
     {

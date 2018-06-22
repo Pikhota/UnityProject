@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.View
+namespace Assets.Scripts.View
 {
     public class ViewWithModel<T> : MonoBehaviour
     {

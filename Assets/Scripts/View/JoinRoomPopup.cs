@@ -1,8 +1,8 @@
-﻿using Assets.Models;
+﻿using Assets.Scripts.Models;
 using TMPro;
 using UnityEngine;
 
-namespace Assets.View
+namespace Assets.Scripts.View
 {
     public class JoinRoomPopup : BasePopup
     {

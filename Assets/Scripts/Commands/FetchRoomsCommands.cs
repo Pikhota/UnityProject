@@ -3,13 +3,13 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Xml.Serialization;
-using Assets.Models;
 using strange.extensions.command.impl;
-using Assets.Signals;
+using Assets.Scripts.Signals;
 using UniRx;
 using UnityEngine;
+using Assets.Scripts.Models;
 
-namespace Assets.Commands
+namespace Assets.Scripts.Commands
 {
     /// <summary>
     /// Load rooms data from server and move to Data model. Server url stored in config passed as command line argument. 

@@ -1,4 +1,4 @@
-﻿namespace Assets.Models
+﻿namespace Assets.Scripts.Models
 {
     public enum Popups
     {

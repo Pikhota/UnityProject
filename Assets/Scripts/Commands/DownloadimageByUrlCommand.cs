@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Net;
-using Assets.Models;
-using Assets.Signals;
+using Assets.Scripts.Models;
+using Assets.Scripts.Signals;
 using strange.extensions.command.impl;
 using UniRx;
 using UnityEngine;
 
-namespace Assets.Commands
+namespace Assets.Scripts.Commands
 {
     public class DownloadImageByUrlCommand : Command
 	{
@@ -76,8 +76,8 @@ namespace Assets.Commands
 					tex.LoadImage(data);
 					LoadedSignal.Dispatch(new AsyncImageData()
 					{
-						url = ImgUrl,
-						texture = tex
+                        url = ImgUrl,
+                        texture = tex
 					});
 				}
 				else

@@ -3,11 +3,13 @@ using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.View
+namespace Assets.Scripts.View
 {
     public abstract class BasePopup : EventView
     {
         [SerializeField] private Button CloseButton;
+        [SerializeField] private Button CreateServerBtn;
+        [SerializeField] private Button JoinServerBtn;
 
         private PopupView _rootView;
 		
@@ -20,6 +22,19 @@ namespace Assets.View
                 {
                     _rootView.Close(this);
                 });
+            }
+
+            if(CreateServerBtn != null)
+            {
+                CreateServerBtn.OnClickAsObservable().Subscribe(s => 
+                {
+
+                });
+            }
+
+            if (JoinServerBtn != null)
+            {
+
             }
         }
     }

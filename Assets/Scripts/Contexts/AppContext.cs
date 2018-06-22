@@ -1,12 +1,12 @@
-﻿using Assets.Commands;
-using Assets.Models;
+﻿using Assets.Scripts.Commands;
+using Assets.Scripts.Models;
 using strange.extensions.command.api;
 using strange.extensions.command.impl;
 using strange.extensions.context.api;
 using strange.extensions.context.impl;
-using Assets.Signals;
+using Assets.Scripts.Signals;
 using UnityEngine;
-using Assets.View;
+using Assets.Scripts.View;
 
 
 public class AppContext : MVCSContext

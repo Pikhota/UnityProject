@@ -1,7 +1,8 @@
-﻿using System;
-using Assets.View;
+﻿using Assets.Scripts.Models;
+using Assets.Scripts.View;
+using System;
 
-namespace Assets.Models
+namespace Assets.Scripts.Models
 {
     [Serializable]
     public class PopupPair

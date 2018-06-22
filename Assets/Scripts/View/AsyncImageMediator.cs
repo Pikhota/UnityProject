@@ -1,7 +1,7 @@
-﻿using Assets.Models;
-using Assets.Signals;
+﻿using Assets.Scripts.Models;
+using Assets.Scripts.Signals;
 
-namespace Assets.View
+namespace Assets.Scripts.View
 {
     public class AsyncImageMediator : TargetMediator<AsyncImageView>
     {

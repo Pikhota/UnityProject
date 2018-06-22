@@ -1,6 +1,6 @@
 ﻿using strange.extensions.signal.impl;
 
-namespace Assets.Signals
+namespace Assets.Scripts.Signals
 {
     public class RoomsFetchedSignal : Signal
     {}
